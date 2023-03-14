@@ -1,0 +1,216 @@
+
+/* header styles */
+.header-block {
+    background-color: #74C69D;
+    /* height: 586px; */
+    padding-top: 35px;
+    padding-bottom: 83px;
+}
+.container-header {
+    max-width: 1175px;
+    width: 90%;
+    margin:0 auto;
+}
+.header-wraper { 
+    display: -webkit-box; 
+    display: -ms-flexbox; 
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+.ul-item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    width: 391px;
+}
+.header-block2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+.left-block-header {
+    max-width: 416px;
+    width: 100%;
+}
+.right-block-header {
+    max-width: 645px;
+    width: 100%;
+}
+.right-block-header img {
+    width: 100%;
+}
+
+.burger-bar {
+    display: none;
+}
+/* section#1 */
+.container {
+    max-width:1159px;
+    width: 90%;
+    margin:0 auto;
+    background-color: lightblue;
+}
+.section-title {
+    max-width: 411px;
+    width: 100%;
+    margin:0 auto;
+    background-color: yellow;
+    text-align: center;
+}
+.images-flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+}
+.btn-click {
+    width: 170px;
+    height: 48px;
+    background-color: #212529;
+    color:#fff;
+    border: none;
+}
+.btn-block {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+.lorem {
+    font-size: 40px;
+}
+
+/* section#2 styles */
+.container-wraper {
+    max-width: 1180px;
+    width: 90%;
+    margin: 0 auto;
+}
+.image-block-wraper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+.left-block {
+    max-width: 600px;
+    width: 100%;
+}
+.right-block {
+    max-width: 470px;
+    width: 100%;
+}
+.left-block img {
+    width: 100%;
+}
+
+/* section#3 */
+.container-section {
+    max-width: 1176px;
+    width: 90%;
+    margin: 0 auto;
+    background-color: lightblue;
+}
+.section-title2 {
+    max-width: 404px;
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    background-color: yellow;
+}
+.image-section3 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    height: 299px;
+}
+.block-section3 {
+    width: 252px;
+    height: 299px;
+    -webkit-box-shadow: 0px 4px 4px #000000;
+            box-shadow: 0px 4px 4px #000000;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+.parent-div {
+    width: 202px;
+    background-color: blueviolet;
+}
+
+
+/* em */
+.title {
+    text-align: center;
+}
+
+.size {
+   font-size: 1rem; 
+   /* 1 * 16 = 16px */
+}
+.size2 {
+    font-size: 1.5rem;
+    /* 1.5 * 16 = 24px*/
+}
+.size3 {
+    font-size: 1.5rem;
+    /* 1.5 * 16 = 24px */
+}
+
+
+.box-unit1 {
+    width: 12.5rem;
+    height: 12.5rem;
+    padding: 1.5625rem;
+
+    /* 12.5 * 16 = 200px
+    1.5625em * 16 = 25px */
+    background-color: yellow;
+}
+
+.box-unit2 {
+    width: 12.5rem;
+    height: 12.5rem;
+    padding: 1.5625rem;
+    font-size: 20px;
+    background-color: yellow;
+
+    /* 12.5 * 16 = 200px
+    1.5625em * 16 = 25 px */
+}
